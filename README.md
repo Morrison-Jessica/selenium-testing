@@ -56,5 +56,16 @@ node external.test.js
 * Node.js
 
 
+## Issues Fixed During Testing
+- **Test 1 (ChromeDriver mismatch)**  
+  Fix: Removed outdated chromedriver dependency and used Selenium Manager instead.
+
+- **Test 2 (ElementNotInteractableError)**  
+  Fix: Added explicit wait before clicking the Contact link.
+
+- **Test 3**  
+  Passed without issues.
+  
+
 ## AI Use Disclosure:
 I used ChatGPT to help draft and structure the README and clarify Selenium setup and test structure. I still reviewed, edited, and implemented the final code and tests myself.
